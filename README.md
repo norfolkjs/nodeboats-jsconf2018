@@ -1,4 +1,4 @@
-# Welcome to NodeBoats at JS Conf 2018!
+# Welcome to NodeBoats at NodeBots Day 2019!
 
 ### Getting Started
 
@@ -10,20 +10,19 @@ Each boat kit will include the following materials. Make sure you let us know if
 
 #### Boat Kits
 
-- Arduino Nano
-- Electronic Speed Controller (ESC) 30A with Reverse
-- Micro Servo
-- HC-06 Bluetooth Module
-- 2S Lipo Battery with XT60 connector
-- 2S USB Lipo Charger
-- Breadboard
+- [Raspberry Pi Zero W](https://smile.amazon.com/Raspberry-Pi-Zero-Wireless-model/dp/B06XFZC3BX/ref=sr_1_4?keywords=raspberry+pi+zero&qid=1558301493&s=gateway&sr=8-4) 
+- [Electronic Speed Controller (ESC) 30A with Reverse](https://smile.amazon.com/gp/product/B07MX3514Y/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+- [Micro Servo](https://smile.amazon.com/gp/product/B071KJV7DD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
+- [2S Lipo Battery with XT60 connector](https://smile.amazon.com/gp/product/B01JCRSSR8/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1)
+- [2S USB Lipo Charger](https://smile.amazon.com/gp/product/B071ZMT2ML/ref=crt_ewc_title_srh_1?ie=UTF8&psc=1&smid=A10R5CWYCW5T5E)
+- [Breadboard](https://smile.amazon.com/Breadboard-Solderless-Prototype-PCB-Board/dp/B077DN2PS1/ref=sr_1_7?keywords=breadboard&qid=1558301688&s=gateway&sr=8-7)
 - USB A <-> Mini-B USB cable
 - Jumper Wires (Male-to-Male && Female-to-Male)
 - Wire Extension
-- Brushless Motor
+- [Brushless Motor](https://smile.amazon.com/gp/product/B00SYH8NXC/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 - Propellor
-- L-shaped connector
-- Boat Hull (aka Plastic Takeout Boxes)
+- L-shaped connector (3-d print)
+- Boat Hull (3-d print) 
 
 #### Things you may need (And We Have!!!)
 
@@ -41,6 +40,8 @@ Each boat kit will include the following materials. Make sure you let us know if
 - Mini Pool Floaties
 
 ### Configuring the Arduino Nano & HC-06 Bluetooth module
+
+- [ ]  Update section with Raspberry Pi instructions.
 
 To avoid using extemely long USB cables to drive the boats from the water to your laptops, the HC-06 Bluetooth module will allow you to run Johnny-Five commands wirelessly to the Arduino Nano. The NodeBoats team has pre-configured the modules to do this, so the following instructions are useful if you are building the boat at home later or need to reconfigure the module. They are based on the [HC-05 configuration docs](https://github.com/rwaldron/johnny-five/wiki/Getting-Started-with-Johnny-Five-and-HC-05-Bluetooth-Serial-Port-Module) with some key changes for the HC-06 and this workshop.
 
